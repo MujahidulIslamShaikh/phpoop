@@ -1,6 +1,4 @@
 <?php
-
-
 class Database {
 
     private $host = "localhost";
@@ -24,8 +22,5 @@ class Database {
 
 $db = new Database();
 $db->connect();
-
-
-
 
 ?>
